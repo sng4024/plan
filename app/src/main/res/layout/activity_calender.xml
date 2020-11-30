@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CalenderActivity">
+
+  <include
+      android:id="@+id/toolBar"
+      layout="@layout/toolbar"
+      tools:layout_editor_absoluteX="0dp"
+      tools:layout_editor_absoluteY="354dp" />
+
+    <com.applikeysolutions.cosmocalendar.view.CalendarView
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:orientation="horizontal"
+        app:firstDayOfTheWeek="sunday"
+        app:selectionType="single"
+        app:selectedDayTextColor="@color/black"
+        app:selectedDayBackgroundColor="@color/lightblue"
+        app:currentDayTextColor="@color/skyblue"
+        app:currentDayIconRes="@drawable/ic_selectss"
+        app:currentDaySelectedIconRes="@drawable/ic_selectss"
+    />
+
+</LinearLayout>

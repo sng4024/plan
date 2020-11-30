@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_alarm"
+        android:icon="@drawable/alarm"
+        android:title="알람"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_chart"
+        android:icon="@drawable/barchart"
+        android:title="차트"
+        app:showAsAction="always" />
+    <item android:id="@+id/menu_cal"
+        android:title="달력"
+        android:icon="@drawable/calender"
+        app:showAsAction="always"/>
+</menu>
